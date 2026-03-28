@@ -1,0 +1,11 @@
+openai
+langchain
+langchain-text-splitters
+langchain-openai
+langchain-community
+faiss-cpu
+pymupdf
+python-pptx
+playwright
+tqdm
+sentence-transformers

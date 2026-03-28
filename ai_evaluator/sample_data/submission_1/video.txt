@@ -1,0 +1,4 @@
+[00:00:10] We upload a resume into the system.
+[00:00:20] The system extracts skills and displays them.
+[00:00:35] Candidate score is generated instantly.
+[00:00:50] Dashboard shows ranked candidates.

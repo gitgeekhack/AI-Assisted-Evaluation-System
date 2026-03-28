@@ -1,0 +1,3 @@
+[00:00:10] User uploads transaction data.
+[00:00:25] System prints fraud prediction.
+[00:00:40] Output is shown in console.

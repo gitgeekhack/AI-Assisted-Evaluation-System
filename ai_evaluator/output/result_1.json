@@ -1,0 +1,212 @@
+{
+  "submission_id": "S1",
+  "summary": {
+    "problem": "Manual resume screening is slow and inconsistent.",
+    "solution": "AI-powered resume screening system using NLP.",
+    "features": [
+      "Resume parsing",
+      "Candidate scoring",
+      "Skill extraction",
+      "Dashboard for recruiters"
+    ],
+    "implementation_depth": {
+      "level": "medium",
+      "justification": "The provided code snippet (app.py:chunk_0) shows a working core logic for extracting skills and scoring candidates, but it's incomplete and lacks integration with the ML model (BERT-based classifier) and database. However, it demonstrates some level of implementation effort, which justifies a medium-level implementation depth."
+    }
+  },
+  "prototype_validation": {
+    "url": "https://example.com",
+    "accessible": true,
+    "loads": true,
+    "status_code": 200,
+    "ui_elements": {
+      "buttons": [],
+      "inputs": [],
+      "links": [
+        "Learn more"
+      ]
+    },
+    "flows": {
+      "login_detected": false,
+      "navigation_working": true,
+      "core_actions_detected": false
+    },
+    "data_processing_signals": [],
+    "errors": null
+  },
+  "claim_validation": {
+    "claims_analysis": [
+      {
+        "claim": "Manual resume screening is slow and inconsistent.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_0"
+          ],
+          "video": [],
+          "code": [],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "AI-powered resume screening system using NLP is the solution.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_2"
+          ],
+          "video": [
+            ":00:10",
+            ":00:20",
+            ":00:35",
+            ":00:50"
+          ],
+          "code": [],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "Resume parsing is a feature.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_3"
+          ],
+          "video": [
+            ":00:20"
+          ],
+          "code": [
+            "app.py:chunk_0"
+          ],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "Candidate scoring is a feature.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_3"
+          ],
+          "video": [
+            ":00:35"
+          ],
+          "code": [
+            "app.py:chunk_0"
+          ],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "Skill extraction is a feature.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_3"
+          ],
+          "video": [
+            ":00:20"
+          ],
+          "code": [],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "Dashboard for recruiters is a feature.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_3"
+          ],
+          "video": [
+            ":00:50"
+          ],
+          "code": [],
+          "prototype": []
+        },
+        "issues": []
+      },
+      {
+        "claim": "We support real-time scoring via API.",
+        "status": "verified",
+        "evidence": {
+          "deck": [
+            "slide_5"
+          ],
+          "video": [],
+          "code": [
+            "app.py:chunk_0"
+          ],
+          "prototype": []
+        },
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_claims": 6,
+      "verified": 6,
+      "partial": 0,
+      "not_verified": 0
+    },
+    "missing_features": [],
+    "weak_evidence_flags": []
+  },
+  "scores": {
+    "scores": [
+      {
+        "criterion": "Problem Understanding",
+        "score": 4,
+        "reasoning": "The problem understanding score is high because the evidence presented in slide_0 clearly states that manual resume screening is slow and inconsistent, which is a common pain point in many organizations.",
+        "citations": [
+          "slide_0"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "criterion": "Technical Approach",
+        "score": 4,
+        "reasoning": "The technical approach score is high because the system uses NLP and a BERT-based classifier, which are advanced technologies for resume screening.",
+        "citations": [
+          "slide_2",
+          "video_00:00:20"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "criterion": "Implementation Quality",
+        "score": 3,
+        "reasoning": "The implementation quality score is average because the code provided in app.py:chunk_0 shows a basic resume parsing function, but it lacks complexity and robustness.",
+        "citations": [
+          "app.py:chunk_0"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "criterion": "Innovation / Originality",
+        "score": 2,
+        "reasoning": "The innovation score is moderate because the system uses existing NLP technologies, but it does not introduce new or novel approaches to resume screening.",
+        "citations": [
+          "slide_2"
+        ],
+        "confidence": 0.5
+      },
+      {
+        "criterion": "Communication & Demo Clarity",
+        "score": 4,
+        "reasoning": "The communication and demo clarity score is high because the video demos are clear and easy to understand, showing the system's features and functionality.",
+        "citations": [
+          "video_00:00:10",
+          "video_00:00:20",
+          "video_00:00:35",
+          "video_00:00:50"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  }
+}
